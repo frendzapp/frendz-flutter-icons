@@ -1,0 +1,22 @@
+name: frendz_icons_flutter
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.11.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.1
+  vector_graphics: ^1.1.20
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  vector_graphics_compiler: ^1.2.0
+
+flutter:
+  assets:
+    - assets/

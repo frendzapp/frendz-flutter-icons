@@ -1,0 +1,6 @@
+# macos
+.DS_Store
+
+# dart
+pubspec.lock
+.dart_tool/
