@@ -47,7 +47,7 @@ void main() async {
 
 // helpers
 String _toCamelCase(String text) {
-  final words = text.split(RegExp(r'[- ]+'));
+  final words = text.split(RegExp(r'[-_ ]+'));
   final capitalized = words
       .map((word) {
         if (word.isEmpty) return "";
