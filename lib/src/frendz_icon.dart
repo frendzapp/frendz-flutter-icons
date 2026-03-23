@@ -14,7 +14,7 @@ class FrendzIcon extends StatelessWidget {
       width: size,
       height: size,
       child: VectorGraphic(
-        loader: AssetBytesLoader(asset),
+        loader: AssetBytesLoader(asset, packageName: 'frendz_flutter_icons'),
         colorFilter: color != null
             ? ColorFilter.mode(color!, BlendMode.srcIn)
             : null,
