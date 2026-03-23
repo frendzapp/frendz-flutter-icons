@@ -1,22 +1,22 @@
 import 'package:vector_graphics/vector_graphics.dart';
 
 class FrendzIcons {
-  static const AssetBytesLoader BubbleRoundFill = AssetBytesLoader('assets/bubble-round-fill.vec');
-  static const AssetBytesLoader Dots = AssetBytesLoader('assets/dots.vec');
-  static const AssetBytesLoader Person = AssetBytesLoader('assets/person.vec');
-  static const AssetBytesLoader Home = AssetBytesLoader('assets/home.vec');
-  static const AssetBytesLoader HomeFill = AssetBytesLoader('assets/home-fill.vec');
-  static const AssetBytesLoader ArrowReturnRight = AssetBytesLoader('assets/arrow-return-right.vec');
-  static const AssetBytesLoader ArrowRight = AssetBytesLoader('assets/arrow-right.vec');
-  static const AssetBytesLoader Bell = AssetBytesLoader('assets/bell.vec');
-  static const AssetBytesLoader ArrowReturnLeft = AssetBytesLoader('assets/arrow-return-left.vec');
-  static const AssetBytesLoader BubbleRound = AssetBytesLoader('assets/bubble-round.vec');
-  static const AssetBytesLoader Plus = AssetBytesLoader('assets/plus.vec');
-  static const AssetBytesLoader Barrier = AssetBytesLoader('assets/barrier.vec');
-  static const AssetBytesLoader Marker = AssetBytesLoader('assets/marker.vec');
-  static const AssetBytesLoader PersonFill = AssetBytesLoader('assets/person-fill.vec');
-  static const AssetBytesLoader MarkerFill = AssetBytesLoader('assets/marker-fill.vec');
-  static const AssetBytesLoader BellFill = AssetBytesLoader('assets/bell-fill.vec');
-  static const AssetBytesLoader ArrowLeft = AssetBytesLoader('assets/arrow-left.vec');
-  static const AssetBytesLoader Cross = AssetBytesLoader('assets/cross.vec');
+	static const String bubbleRoundFill = 'assets/bubble-round-fill.vec';
+	static const String dots = 'assets/dots.vec';
+	static const String person = 'assets/person.vec';
+	static const String home = 'assets/home.vec';
+	static const String homeFill = 'assets/home-fill.vec';
+	static const String arrowReturnRight = 'assets/arrow-return-right.vec';
+	static const String arrowRight = 'assets/arrow-right.vec';
+	static const String bell = 'assets/bell.vec';
+	static const String arrowReturnLeft = 'assets/arrow-return-left.vec';
+	static const String bubbleRound = 'assets/bubble-round.vec';
+	static const String plus = 'assets/plus.vec';
+	static const String barrier = 'assets/barrier.vec';
+	static const String marker = 'assets/marker.vec';
+	static const String personFill = 'assets/person-fill.vec';
+	static const String markerFill = 'assets/marker-fill.vec';
+	static const String bellFill = 'assets/bell-fill.vec';
+	static const String arrowLeft = 'assets/arrow-left.vec';
+	static const String cross = 'assets/cross.vec';
 }

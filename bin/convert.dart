@@ -35,9 +35,7 @@ void main() async {
       if (result.exitCode != 0) continue;
 
       final variableName = _toCamelCase(name);
-      buffer.writeln(
-        "  static const AssetBytesLoader $variableName = AssetBytesLoader('$outputPath');",
-      );
+      buffer.writeln("\tstatic const String $variableName = '$outputPath';");
     }
   }
 
@@ -55,5 +53,5 @@ String _toCamelCase(String text) {
       })
       .join('');
 
-  return capitalized;
+  return capitalized[0].toLowerCase() + capitalized.substring(1);
 }
