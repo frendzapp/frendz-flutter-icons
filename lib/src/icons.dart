@@ -1,5 +1,3 @@
-import 'package:vector_graphics/vector_graphics.dart';
-
 class FrendzIcons {
 	static const String bubbleRoundFill = 'assets/bubble-round-fill.vec';
 	static const String dots = 'assets/dots.vec';
