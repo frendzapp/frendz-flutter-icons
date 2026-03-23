@@ -15,7 +15,6 @@ void main() async {
   if (!outputDirectory.existsSync()) outputDirectory.createSync();
 
   final buffer = StringBuffer();
-  buffer.writeln("import 'package:vector_graphics/vector_graphics.dart';\n");
   buffer.writeln("class FrendzIcons {");
 
   final files = inputDirectory.listSync().whereType<File>().toList();

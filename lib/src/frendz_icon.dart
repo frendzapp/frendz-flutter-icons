@@ -1,18 +1,18 @@
 import 'package:flutter/widgets.dart';
 import 'package:vector_graphics/vector_graphics.dart';
 
-class Icon extends StatelessWidget {
+class FrendzIcon extends StatelessWidget {
   final String asset;
   final double? size;
   final Color? color;
 
-  const Icon(this.asset, {super.key, this.size, this.color});
+  const FrendzIcon(this.asset, {super.key, this.size = 32, this.color});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: size ?? 32,
-      height: size ?? 32,
+      width: size,
+      height: size,
       child: VectorGraphic(
         loader: AssetBytesLoader(asset),
         colorFilter: color != null
