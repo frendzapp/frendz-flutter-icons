@@ -5,7 +5,7 @@ import 'package:path/path.dart' as path;
 void main() async {
   final inputDirectory = Directory('raw');
   final outputDirectory = Directory('assets');
-  final outputFile = File('lib/src/icons.dart');
+  final outputFile = File('lib/src/frendz_icons.dart');
 
   if (!inputDirectory.existsSync()) {
     inputDirectory.createSync();
